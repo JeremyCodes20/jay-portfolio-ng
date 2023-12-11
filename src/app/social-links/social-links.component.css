@@ -1,0 +1,18 @@
+#social-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  padding: 1.5%;
+  cursor: default;
+}
+
+.image-link {
+  opacity: 100%;
+  transition: opacity 0.5s;
+  padding-inline: 2px;
+}
+
+.image-link:hover {
+  opacity: 50%;
+}

@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata");
+
+/*
+  Source:
+  https://stackoverflow.com/questions/69843924/fullscreen-background-image-in-angular
+*/
+html {
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+  background: #132a18 url('assets/images/beaver_mountain.jpg') no-repeat center
+    center fixed;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-blend-mode: multiply;
+  opacity: 94%;
+}
+
+body {
+  margin: 0;
+  font-family: Inconsolata;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: Inconsolata;
+  color: white;
+  font-size: 20px;
+}

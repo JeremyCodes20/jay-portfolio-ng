@@ -1,0 +1,18 @@
+#navigation-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  cursor: default;
+}
+
+.navigation-item {
+    opacity: 100%;
+    transition: opacity 0.5s;
+    padding-inline: 2px;
+}
+
+.navigation-item:hover {
+    opacity: 50%;
+}
